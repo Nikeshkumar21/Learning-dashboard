@@ -1,0 +1,40 @@
+/* Global Styles for Light Mode */
+body.light {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Global Styles for Dark Mode */
+body.dark {
+  background-color: #121212;
+  color: #f9f9f9;
+}
+
+/* Ensure links, buttons, and other elements inherit the mode */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Dark mode adjustments for buttons */
+body.dark button {
+  background-color: #444;
+  color: #fff;
+}
+
+body.dark button:hover {
+  background-color: #666;
+}

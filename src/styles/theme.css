@@ -1,0 +1,37 @@
+/* Define light and dark theme colors */
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --primary-color: #007bff;
+    --navbar-bg: #343a40;
+    --navbar-text: #ffffff;
+}
+
+[data-theme='dark'] {
+    --bg-color: #121212;
+    --text-color: #e0e0e0;
+    --primary-color: #1f86ff;
+    --navbar-bg: #212529;
+    --navbar-text: #e0e0e0;
+}
+
+/* Apply variables globally */
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar {
+    background-color: var(--navbar-bg) !important;
+    color: var(--navbar-text);
+}
+
+.navbar a {
+    color: var(--navbar-text) !important;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}

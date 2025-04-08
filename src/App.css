@@ -1,0 +1,31 @@
+Light Theme
+.app.light {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .nav-link {
+  color: #212529;
+}
+
+.btn-dark {
+  background-color: #212529;
+  color: #f8f9fa;
+}
+
+/* Dark Theme */
+.app.dark {
+  background-color: #212529;
+  color: #f8f9fa;
+}
+
+.navbar-dark .navbar-brand,
+.navbar-dark .nav-link {
+  color: #f8f9fa;
+}
+
+.btn-light {
+  background-color: #f8f9fa;
+  color: #212529;
+}
